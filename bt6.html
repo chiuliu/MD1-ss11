@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let height = +prompt("Mời bạn nhập cân nặng : ");
+      let weight = +prompt("Mời bạn nhập chiều cao : ");
+      let bmi = (weight / (height * height)).toFixed(1);
+      if (bmi < 18.5) {
+        alert("Cân nặng thấp(gầy)");
+      } else if (bmi <= 24.9 && bmi >= 18.5) {
+        alert("Bình thường");
+      } else if (bmi >= 25) {
+        alert("Thừa cân");
+        if (bmi <= 29.9) {
+          alert("Tiền béo phì");
+        } else if (bmi <= 34.9 && bmi >= 30) {
+          alert("Béo phì độ I");
+        } else if (bmi <= 39.9 && bmi >= 35) {
+          alert("Béo phì độ II");
+        } else {
+          alert("Béo phì độ III");
+        }
+      }
+    </script>
+  </body>
+</html>

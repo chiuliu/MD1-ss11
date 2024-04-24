@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let date = +prompt("Mời bạn nhập ngày sinh :");
+      let month = +prompt("Mời bạn nhập tháng sinh :");
+      switch (month) {
+        case 1:
+          if (date >= 20 && date <= 31) {
+            alert("Bạn thuộc cung Bảo Bình");
+            break;
+          } else if (date >= 1 && date < 22) {
+            alert("Bạn thuộc cung Ma Kết");
+            break;
+          } else {
+            alert("Tháng 1 có 31 ngày - Mời bạn nhập đúng ngày tháng sinh");
+            break;
+          }
+        case 2:
+          if (date >= 19 && date <= 29) {
+            alert("Bạn thuộc cung Song Ngư");
+            break;
+          } else if (date >= 1 && date < 22) {
+            alert("Bạn thuộc cung Bảo Bình");
+            break;
+          } else {
+            alert(
+              "Tháng 1 có tối đa 29 ngày - Mời bạn nhập đúng ngày tháng sinh"
+            );
+            break;
+          }
+        case 3:
+          if (date >= 21 && date <= 31) {
+            alert("Bạn thuộc cung Bạch Dương");
+            break;
+          } else if (date >= 1 && date < 21) {
+            alert("Bạn thuộc cung Song Ngư");
+            break;
+          } else {
+            alert("Tháng 3 có 31 ngày - Mời bạn nhập đúng ngày tháng sinh");
+            break;
+          }
+        case 4:
+          if (date >= 20 && date <= 30) {
+            alert("Bạn thuộc cung Kim Ngưu");
+            break;
+          } else if (date >= 1 && date < 20) {
+            alert("Bạn thuộc cung Bạch Dương");
+            break;
+          } else {
+            alert("Tháng 4 có 30 ngày - Mời bạn nhập đúng ngày tháng sinh");
+            break;
+          }
+        case 5:
+          if (date >= 21 && date <= 31) {
+            alert("Bạn thuộc cung Song Tử");
+            break;
+          } else if (date >= 1 && date < 21) {
+            alert("Bạn thuộc cung Kim Ngưu");
+            break;
+          } else {
+            alert("Tháng 5 có 31 ngày - Mời bạn nhập đúng ngày tháng sinh");
+            break;
+          }
+        case 6:
+          if (date >= 22 && date <= 30) {
+            alert("Bạn thuộc cung Cự Giải");
+            break;
+          } else if (date >= 1 && date < 22) {
+            alert("Bạn thuộc cung Song Tử");
+            break;
+          } else {
+            alert("Tháng 6 có 30 ngày - Mời bạn nhập đúng ngày tháng sinh");
+            break;
+          }
+        case 7:
+          if (date >= 23 && date <= 31) {
+            alert("Bạn thuộc cung Sử Tử");
+            break;
+          } else if (date >= 1 && date < 23) {
+            alert("Bạn thuộc cung Cự Giải");
+            break;
+          } else {
+            alert("Tháng 7 có 31 ngày - Mời bạn nhập đúng ngày tháng sinh");
+            break;
+          }
+        case 8:
+          if (date >= 23 && date <= 31) {
+            alert("Bạn thuộc cung Xử Nữ");
+            break;
+          } else if (date >= 1 && date < 23) {
+            alert("Bạn thuộc cung Sư Tử");
+            break;
+          } else {
+            alert("Tháng 8 có 31 ngày - Mời bạn nhập đúng ngày tháng sinh");
+            break;
+          }
+        case 9:
+          if (date >= 23 && date <= 30) {
+            alert("Bạn thuộc cung Thiên Bình");
+            break;
+          } else if (date >= 1 && date < 23) {
+            alert("Bạn thuộc cung Xử Nữ");
+            break;
+          } else {
+            alert("Tháng 9 có 30 ngày - Mời bạn nhập đúng ngày tháng sinh");
+            break;
+          }
+        case 10:
+          if (date >= 24 && date <= 31) {
+            alert("Bạn thuộc cung Hổ Cáp");
+          } else if (date >= 1 && date < 24) {
+            alert("Bạn thuộc cung Thiên Bình");
+            break;
+          } else {
+            alert("Tháng 10 có 31 ngày - Mời bạn nhập đúng ngày tháng sinh");
+            break;
+          }
+        case 11:
+          if (date >= 22 && date <= 30) {
+            alert("Bạn thuộc cung Nhân Mã");
+            break;
+          } else if (date >= 1 && date < 22) {
+            alert("Bạn thuộc cung Hổ Cáp");
+            break;
+          } else {
+            alert("Tháng 11 có 30 ngày - Mời bạn nhập đúng ngày tháng sinh");
+            break;
+          }
+        case 12:
+          if (date >= 22 && date <= 31) {
+            alert("Bạn thuộc cung Ma Kết");
+            break;
+          } else if (date >= 1 && date < 22) {
+            alert("Bạn thuộc cung Nhân Mã");
+            break;
+          } else {
+            alert("Tháng 12 có 31 ngày - Mời bạn nhập đúng ngày tháng sinh");
+            break;
+          }
+      }
+    </script>
+  </body>
+</html>

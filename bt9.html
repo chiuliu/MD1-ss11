@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let a = +prompt("Nhập số thứ nhất :");
+      let b = +prompt("Nhập số thứ hai :");
+      let c = +prompt("Nhập số thứ ba :");
+      let max, min;
+      if (a > b) {
+        if (a > c) {
+          max = a;
+          if (b > c) {
+            min = c;
+          } else {
+            min = b;
+          }
+        } else {
+          max = c;
+          min = b;
+        }
+      } else {
+        if (a < c) {
+          min = a;
+          if (b < c) {
+            max = c;
+          } else {
+            max = b;
+          }
+        }
+      }
+      alert("Max là :" + max);
+      alert("Min là :" + min);
+    </script>
+  </body>
+</html>

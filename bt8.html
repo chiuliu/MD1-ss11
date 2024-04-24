@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let a = +prompt("Mời bạn nhập số a :");
+      let b = +prompt("Mời bạn nhập số b :");
+      let caculation = prompt("Mời bạn nhập phép tính :");
+      let result;
+      switch (caculation) {
+        case "+":
+          result = a + b;
+          break;
+        case "-":
+          result = a - b;
+          break;
+        case "*":
+          result = a * b;
+          break;
+        case "/":
+          result = a / b;
+          break;
+        default:
+          result = "Phép tính k hợp lệ";
+      }
+      alert(
+        "Kết quả của" +
+          " " +
+          a +
+          " " +
+          caculation +
+          " " +
+          b +
+          " " +
+          "=" +
+          " " +
+          result
+      );
+    </script>
+  </body>
+</html>
